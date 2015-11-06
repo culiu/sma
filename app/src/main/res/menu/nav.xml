@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".NavActivity">
+
+  <item
+      android:id="@+id/action_upload_logs"
+      android:title="@string/action_upload_logs"
+      app:showAsAction="ifRoom"/>
+
+  <item
+      android:id="@+id/action_shutdown"
+      android:title="@string/action_shutdown"
+      app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="app_name">sma</string>
+  <string name="title_network_pane">Network</string>
+  <string name="title_content_pane">Content</string>
+  <string name="title_stream_pane">Stream</string>
+  <string name="title_post_pane">Post</string>
+  <string name="tabs_icon_image_description">Select Tab</string>
+  <string name="action_shutdown">Shutdown</string>
+  <string name="action_upload_logs">Upload Logs</string>
+    <string name="title_activity_tab1">Tab1Activity</string>
+    <string name="title_activity_tab2">Tab2Activity</string>
+    <string name="title_activity_tab3">Tab3Activity</string>
+
+</resources>

@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="edu.asu.sma.client.ContentFragment"
+              android:orientation="vertical">
+
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+      android:layout_weight="0.25">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Interest"
+          android:labelFor="@+id/newInterestText"
+          android:layout_weight="0"/>
+
+      <EditText
+          android:id="@+id/newInterestText"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:inputType="text"
+          android:layout_weight="1"/>
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="+"
+          android:layout_weight="0"
+          android:id="@+id/addInterestButton"/>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/interestsList"/>
+
+  </LinearLayout>
+
+  <View
+      android:layout_width="fill_parent"
+      android:layout_height="1dp"
+      android:background="@android:color/darker_gray"
+      android:layout_marginTop="5dp"
+      android:layout_marginBottom="5dp"/>
+
+   <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="1dp"
+      android:orientation="vertical"
+      android:layout_weight="1">
+      <TextView
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="Metadata"
+          android:id="@+id/meta_tv"
+          android:textAlignment="gravity"
+          android:gravity="center"/>
+
+      <ListView
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:id="@+id/metasList" />
+
+  </LinearLayout>
+
+<!--  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Content"
+        android:id="@+id/textView"
+        android:textAlignment="gravity"
+        android:gravity="center"/>
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/storedContentList"/>
+  </LinearLayout>
+  -->
+
+</LinearLayout>

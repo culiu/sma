@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/tabsLayout"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/tab_bg_selector"
+              android:gravity="center"
+              android:orientation="vertical">
+
+  <edu.asu.sma.client.TintableImageView
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:id="@+id/tab_icon"
+      app:tint="@color/tab_tint_selector"
+      android:contentDescription="@null"/>
+</LinearLayout>
