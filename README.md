@@ -5,7 +5,7 @@ an information-centric device to device network on android
 - Devices should be rooted
 - Flash the [cyanogenmod](http://www.cyanogenmod.org) firmware to support WiFi AdHoc mode.
 - Nexus 5 and Nexus 7 are both supported. However, the latest version 12.1 does not support Nexus 5.
-- A working version can be downloaded here [cyanogenmod 12.1] (http://culiuliu.net/downloads/cm-12.1-20151110-NIGHTLY-grouper.zip)
+- A working version can be downloaded here [cyanogenmod 12.1] (http://culiuliu.net/downloads/cm-12.1-20151110-NIGHTLY-grouper.zip), and it works on Nexus 7.
 
 # structure
 The project consists of two parts, i.e., (1) the sma core and (2) Android app.
